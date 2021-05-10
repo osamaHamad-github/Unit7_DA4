@@ -2,7 +2,7 @@ document.getElementById('enter').addEventListener('click', pricing)
 
 function validAge (age) {
   // checking to see if age is bewteen 12 and 21
-  if (12 <= age && age <= 21) {
+  if (12 <= age &&  21 >= age) {
     // returning true
     return true
   } else {
@@ -24,9 +24,9 @@ function pricing () {
   // getting inputted age
   let age = document.getElementById('age').value
   let day = document.getElementById('day').value
-  let answer = document.getElementById('answer')
+  const answer = document.getElementById('answer')
 
-  // parsing age into type int 
+  // parsing age into type int
   age = parseInt(age)
 
   // converting day chars to lower so our function detects the day
