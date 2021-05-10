@@ -2,7 +2,7 @@ document.getElementById('enter').addEventListener('click', pricing)
 
 function validAge (age) {
   // checking to see if age is bewteen 12 and 21
-  if (12 <= age &&  21 >= age) {
+  if (age >= 12 && age <= 21) {
     // returning true
     return true
   } else {
