@@ -1,0 +1,23 @@
+#header,
+p,
+#answer {
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+#enter {
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid brown;
+  background-color: lightgoldenrodyellow;
+  border-radius: 1px;
+}
+
+input {
+  border: 2px solid brown;
+  border-radius: 1px;
+}
